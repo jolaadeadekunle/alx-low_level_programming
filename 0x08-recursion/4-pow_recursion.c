@@ -2,11 +2,12 @@
 #include "main.h"
 
 /**
- *pow_recursion-function that returns x raised to the power of y
- *@x: base number
- *@y: power number
- *Return:x raised to the power of y
- */
+ * _pow_recursion - function that returns x raised to the power of y 
+ *@x:base number 
+ *@y:power number 
+ *Return:x raised to the power of y 
+*/
+
 int _pow_recursion(int X, int Y)
 {
 	if (y < 0)
